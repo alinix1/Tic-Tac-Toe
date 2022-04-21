@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+}
+
+h1, h2 {
+  font-family: 'Indie Flower';
+}
+
+.header {
+  background-color: #87CEEB;
+  height: 100px;
+  color: black;
+  padding: 1px;
+  display: flex;
+  justify-content: center;
+}
+
+.left-col {
+  width: 25%;
+  float: left;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 841px;
+  background-image: url("assets/canada-image.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+.center-col {
+  background-color: #4FFFB0;
+  width: 50%;
+  float: left;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 841px;
+}
+
+.right-col {
+  background-color: cyan;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 841px;
+  background-image: url("assets/usa-image.jpeg");
+  background-position: center;
+  background-size: cover;
+}
