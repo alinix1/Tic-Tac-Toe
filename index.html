@@ -9,17 +9,35 @@
 <div class="header">
   <h1>Tic-Tac-Toe</h1>
 </div>
-<div class="container">
+<div class="main-container">
   <div class="left-col">
-    <img class="canada-icon" src="assets/icons8-usa-100.svg">
-    <h2>Wins</h2>
+    <div class="left-col">
+      <div class="left-container-label">
+        <img class="canada-icon" src="assets/icons8-canada-100.svg">
+        <h2>Wins</h2>
+      </div>
+    </div>
+    </div>
+<div class="container">
+    <p class="current-player">It's emoji's turn</p>
+  <div class="center-col" id="board">
+      <div id="1" class="tile right-border bottom-border">1</div>
+      <div id="2" class="tile right-border bottom-border">2</div>
+      <div id="3" class="tile bottom-border">3</div>
+      <div id="4" class="tile right-border bottom-border">4</div>
+      <div id="5" class="tile right-border bottom-border">5</div>
+      <div id="6" class="tile bottom-border">6</div>
+      <div id="7" class="tile right-border">7</div>
+      <div id="8" class="tile right-border">8</div>
+      <div id="9" class="tile">9</div>
   </div>
-  <div class="center-col">
-    <h2>It's emoji's turn</h2>
-  </div>
+</div>
   <div class="right-col">
-    <img class="usa-icon" src="assets/icons8-usa-100.svg">
-    <h2>Wins</h2>
+    <div class="right-container-label">
+      <img class="usa-icon" src="assets/icons8-usa-100.svg">
+      <h2>Wins</h2>
+    </div>
+  </div>
 </div>
   <script src="game.js"></script>
   <script src="player.js"></script>
