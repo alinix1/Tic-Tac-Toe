@@ -37,7 +37,6 @@ h1, h2 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  height: 841px;
   background-image: url("assets/canada-image.jpeg");
   background-position: center;
   background-size: cover;
@@ -58,7 +57,6 @@ h1, h2 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  height: 841px;
   background-image: url("assets/usa-image.jpeg");
   background-position: center;
   background-size: cover;
@@ -123,4 +121,6 @@ h1, h2 {
 .current-player {
   font-family: 'Indie Flower';
   font-size: 40px;
+  display: flex;
+  align-items: center;
 }
