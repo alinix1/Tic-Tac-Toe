@@ -31,7 +31,7 @@ h1, h2 {
   display: flex;
 }
 
-.left-col {
+.left-sidebar {
   width: 25%;
   float: left;
   display: flex;
@@ -42,16 +42,15 @@ h1, h2 {
   background-size: cover;
 }
 
-.center-col {
+.center-content {
   display: flex;
   flex-direction: column;
   align-content: center;
-  justify-content: space-around
-  align-items: center;
-  height: 841px;
+  justify-content: space-around;
+  height: 800px;
 }
 
-.right-col {
+.right-sidebar {
   background-color: cyan;
   width: 25%;
   display: flex;
@@ -73,15 +72,10 @@ h1, h2 {
   background-color: #4FFFB0;
   width: 50%;
   display: flex;
-  flex-wrap: nowrap;
   flex-direction: column;
   justify-content: space-between;
   align-content: center;
   align-items: center;
-}
-
-.player-container {
-  display: flex;
 }
 
 .tile {
@@ -100,7 +94,7 @@ h1, h2 {
   border-bottom: 0.1em solid indigo;
 }
 
-.right-container-label {
+.right-sidebar-label {
   display: flex;
   flex-direction: column;
   width: 100px;
@@ -109,7 +103,7 @@ h1, h2 {
   align-items: center;
 }
 
-.left-container-label {
+.left-sidebar-label {
   display: flex;
   flex-direction: column;
   width: 100px;

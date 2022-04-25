@@ -6,57 +6,46 @@
     <title>Tic-Tac-Toe</title>
 </head>
 <body>
-<div class="header">
+<header class="header">
   <h1>Tic-Tac-Toe</h1>
-</div>
+</header>
 <div class="main-container">
-  <div class="left-col">
-    <div class="left-col">
-      <div class="left-container-label">
+  <sidebar class="left-sidebar">
+      <section class="left-sidebar-label">
         <img class="canada-icon" src="assets/icons8-canada-100.svg">
         <h2>Wins</h2>
-      </div>
-    </div>
-    </div>
+      </section>
+  </sidebar>
 <div class="container">
     <p class="current-player">It's <img src="assets/icons8-canada-100.svg">'s turn</p>
     <button id="resetButton">Play Again</button>
-  <div class="center-col" id="board">
-      <div id="1" class="tile right-border bottom-border">
-        <img>
-      </div>
-      <div id="2" class="tile right-border bottom-border">
-        <img>
-      </div>
-      <div id="3" class="tile bottom-border">
-          <img>
-      </div>
-      <div id="4" class="tile right-border bottom-border">
-          <img>
-      </div>
-      <div id="5" class="tile right-border bottom-border">
-          <img>
-      </div>
-      <div id="6" class="tile bottom-border">
-          <img>
-      </div>
-      <div id="7" class="tile right-border">
-          <img>
-      </div>
-      <div id="8" class="tile right-border">
-          <img>
-      </div>
-      <div id="9" class="tile">
-          <img>
-      </div>
-  </div>
+  <section class="center-content" id="board">
+      <section id="1" class="tile right-border bottom-border"><img>
+      </section>
+      <section id="2" class="tile right-border bottom-border"><img>
+      </section>
+      <section id="3" class="tile bottom-border"><img>
+      </section>
+      <section id="4" class="tile right-border bottom-border"><img>
+      </section>
+      <section id="5" class="tile right-border bottom-border"><img>
+      </section>
+      <section id="6" class="tile bottom-border"><img>
+      </section>
+      <section id="7" class="tile right-border"><img>
+      </section>
+      <section id="8" class="tile right-border"><img>
+      </section>
+      <section id="9" class="tile"><img>
+      </section>
+  </section>
 </div>
-  <div class="right-col">
-    <div class="right-container-label">
+  <sidebar class="right-sidebar">
+    <section class="right-sidebar-label">
       <img class="usa-icon" src="assets/icons8-usa-100.svg">
       <h2>Wins</h2>
-    </div>
-  </div>
+    </section>
+  </sidebar>
 </div>
   <script src="board.js"></script>
   <script src="player.js"></script>
